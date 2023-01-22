@@ -7,11 +7,11 @@ import imageio
 from tqdm import tqdm
 import yaml
 
-from FaceBoxes import FaceBoxes
-from TDDFA import TDDFA
-from utils.render import render
+from tddfa_v2.FaceBoxes import FaceBoxes
+from tddfa_v2.TDDFA import TDDFA
+from tddfa_v2.utils.render import render
 # from utils.render_ctypes import render
-from utils.functions import cv_draw_landmark, get_suffix
+from tddfa_v2.utils.functions import cv_draw_landmark, get_suffix
 
 
 def main(args):
